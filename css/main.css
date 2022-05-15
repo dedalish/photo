@@ -16,6 +16,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .header{
     text-transform: uppercase;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -58,6 +59,8 @@ body{
 .gallery_item img{
     width: 100%;
     display: block;
+    border-radius: .5px;
+    box-shadow: 0 0 3px 0 #a7a5a5;
 }
 
 .loaded .gallery{
@@ -74,6 +77,12 @@ body{
     body{
         background-color: var(--color-dark);
     }
+
+    .gallery_item img{
+        box-shadow: 0 0 3px 0 #272727;
+    }
+    
+    
     .header{
         filter: invert(100%);
     }
